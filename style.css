@@ -1,0 +1,34 @@
+html {
+    background-color: white;
+  }
+  @keyframes insite {
+    0% {
+      background-color: green;
+    }
+    30% {
+      background-color: lightgreen;
+    }
+  
+    100% {
+      background-color: black;
+    }
+  }
+  
+  div {
+    height: 50px;
+    width: 50px;
+    -webkit-opacity: 10%;
+    background-color: red;
+    animation-name: insite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    paddinng : 5px;
+  }
+  
+  body {
+    padding: 50px;
+  }
+  html {
+    padding: 70px;
+  }
+  
